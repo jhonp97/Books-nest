@@ -1,0 +1,160 @@
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*INICIO DEL HEADER*/
+  
+  .header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(68, 94, 141);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+  .logo {
+    width: 10vw;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+  
+  
+  }
+  
+  .buscador {
+    width: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 400px;
+    height: 40px;
+    border: solid 1px gray;
+    border-radius: 30px;
+  }
+  
+  .menu__servicios {
+    list-style: none;
+  
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .menu__servicios li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  
+  .menu__servicios li a:hover {
+    scale: 1.5;
+    color: rgb(209, 221, 217);
+  }
+  
+  /*FIN DEL HEADER*/
+  
+  /*----------------------------------*/
+  
+  /*COMIENZO DEL MAIN*/
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+  
+  }
+  
+  .compartir {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: rgb(184, 184, 184);
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .compartir_h1 {
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -60px;
+  }
+  
+  .compartir_h2 {
+    font-size: 1.6rem;
+  }
+  
+  .compartir_boton {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    background-color: rgb(68, 94, 141);
+  }
+  
+  .compartir_boton a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .compartir_boton:hover{
+    background-color: gray;
+  }
+  
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  
+  .contenido_h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+  
+  }
+  
+  .contenido_img {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-evenly;
+    align-content: center;
+  
+  }
+  
+  .contenido_libro{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 200px;
+    border: solid 3px black;
+    border-radius: 8px;
+  }
+  /* FIN DEL MAIN*/
+  
+  /*--------------------------------*/
+  /* INICIO DEL FOOTER*/
+  .footer{
+    height: 10vh;
+    background-color: rgb(68, 94, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
