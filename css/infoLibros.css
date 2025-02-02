@@ -133,7 +133,7 @@ h1 {
 }
 
 p {
-
+  text-align: justify;
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -148,4 +148,14 @@ p {
   align-items: center;
   font-size: 1.6rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer a{
+  text-decoration: none;
+  color: antiquewhite;
+
+}
+
+.footer a:hover{
+  text-decoration: underline;
 }

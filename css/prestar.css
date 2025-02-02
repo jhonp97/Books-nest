@@ -24,7 +24,9 @@
 }
 
 .logo img{
+
   width: 70px;
+  
   height: 70px;
   border-radius: 50%;
   text-decoration: none;
@@ -76,15 +78,66 @@
 .contenido_categorias{
   display: flex;
   flex-direction: row;
-  width: 100vw;
-  height: 80vh;
+  min-width: 100vw;
+  min-height: 80vh;
   flex-grow: 1;
 }
 
 .categorias{
-  width: 30vw;
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 30vw;
+  min-height: 80vh;
   background-color: rgb(184, 184, 184);
+}
+
+.categorias_h1{
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.categorias_ol{
+  margin-left: 100px;
+  padding: 10px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  
+}
+
+.categorias_ol a{
+  text-decoration: none;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.categorias_ol a:hover{
+  text-decoration:underline;
+}
+
+.categorias li{
+  margin: 10px;
+  padding: 5px;
+}
+
+.sublist{
+  margin-left: 20px;
+  padding: 10px;
+  list-style-type:disc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  
+}
+
+.sublist a{
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
@@ -92,7 +145,8 @@
 .contenido {
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  min-width: 70vw;
+  min-height: 60vh;
   justify-content: space-evenly;
   align-items: center;
   flex-grow: 1;
@@ -108,7 +162,7 @@
 .contenido_img {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  min-width: 70vw;
   justify-content: space-evenly;
   align-content: center;
 
@@ -153,4 +207,14 @@
     align-items: center;
     font-size: 1.6rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: antiquewhite;
+
+  }
+
+  .footer a:hover{
+    text-decoration: underline;
   }
