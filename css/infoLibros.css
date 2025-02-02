@@ -101,6 +101,7 @@
   font-size: 1.2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(68, 94, 141);
+  margin-top: 24px;
 }
 
 .compartir_boton a {
@@ -108,7 +109,7 @@
   color: whitesmoke;
 }
 
-.compartir_boton:hover{
+.compartir_boton:hover {
   background-color: gray;
   scale: 1.1;
 }
