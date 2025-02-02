@@ -1,5 +1,5 @@
 /*INICIO DEL HEADER*/
-
+  
 .header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
@@ -14,13 +14,17 @@
 
 }
 
-.logo {
-  width: 10vw;
-  height: 40px;
+.logo img{
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   text-decoration: none;
 
 
+}
+
+.logo img:hover{
+  scale: 1.1;
 }
 
 .buscador {
@@ -55,38 +59,6 @@
 
 /*FIN DEL HEADER*/
 
-/* INICIO DE LA TABLA*/
-.tabla {
-  margin-left: 20%;
-  width: 700px;
-  height: 380px;
-  font-size: 20px;
-  border: solid 3px;
-  border-radius: 8px;
-  border-spacing: 0;
-}
-
-
-caption {
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-
-td {
-  background: GhostWhite;
-  border: solid 2px black;
-  text-align: center;
-
-}
-
-th {
-  border: solid 2px black;
-  text-align: center;
-  background: Gainsboro;
-}
-
-/* FIN DE LA TABLA*/
-
 /* Contenedor Layout General */
 .container {
   display: flex;
@@ -99,13 +71,20 @@ th {
   display: flex;
   flex-direction: row-reverse;
   flex: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Estilos para la navegación del sidebar */
+/* Estilos del sidebar */
 .sidebar {
-  background-color: #802424;
-  width: 200px;
-  padding: 10px;
+  background-color: antiquewhite;
+  width: 400px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+  
 }
 
 
@@ -114,17 +93,81 @@ th {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
 
+/* INICIO DE LA TABLA*/
+.tabla {
+  margin-left: 20%;
+  width: 700px;
+  height: 380px;
+  font-size: 20px;
+  border: solid 1px;
+  border-radius: 8px;
+ 
+}
+
+
+caption {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+td {
+  background: GhostWhite;
+  border: solid 1px black;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+th {
+  border: solid 1px black;
+  text-align: left;
+  padding: 10px;
+  background: antiquewhite;
+}
+
+
+
+.img {
+  width: 100px;
+  box-shadow: 2px 2px 5px #bbbbbb;
+}
+
+/* FIN DE LA TABLA*/
+
+.compartir_boton {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: rgb(68, 94, 141);
+}
+
+.compartir_boton a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.compartir_boton:hover{
+  background-color: gray;
+  scale: 1.1;
 }
 
 
 
 /* INICIO DEL FOOTER*/
-.footer {
+.footer{
   height: 10vh;
+  
   background-color: rgb(68, 94, 141);
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   font-size: 1.6rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
