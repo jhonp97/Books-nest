@@ -1,69 +1,149 @@
 /*INICIO DEL HEADER*/
-  
+
 .header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1rem;
-    width: 100vw;
-    height: 10vh;
-    background-color: rgb(68, 94, 141);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-  
-  }
-  
-  .logo {
-    width: 10vw;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-  
-  
-  }
-  
-  .buscador {
-    width: 60vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
-    padding: 15px;
-    width: 400px;
-    height: 40px;
-    border: solid 1px gray;
-    border-radius: 30px;
-  }
-  
-  .menu__servicios {
-    list-style: none;
-  
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
-  
-  }
-  
-  .menu__servicios li a {
-    text-decoration: none;
-    color: antiquewhite;
-  }
-  
-  .menu__servicios li a:hover {
-    scale: 1.5;
-    color: rgb(209, 221, 217);
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(68, 94, 141);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.logo {
+  width: 10vw;
+  height: 70px;
+  border-radius: 50%;
+  text-decoration: none;
 
 
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.logo img:hover {
+  scale: 1.1;
+}
+
+.buscador {
+  width: 60vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  padding: 15px;
+  width: 400px;
+  height: 40px;
+  border: solid 1px gray;
+  border-radius: 30px;
+}
+
+.menu__servicios {
+  list-style: none;
+
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.menu__servicios li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.menu__servicios li a:hover {
+  scale: 1.5;
+  color: rgb(209, 221, 217);
+}
+
+/*FIN DEL HEADER*/
+
+/* Contenedor Layout General */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main img {
+  width: 40%;
+  height: 70%;
+  object-fit: cover;
+  margin-left: 30px;
+  border: 3px solid rgb(68, 94, 141);
+  border-radius: 10px;
+}
+
+.compartir_boton {
+
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(68, 94, 141);
+}
+
+.compartir_boton a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.compartir_boton:hover{
+  background-color: gray;
+  scale: 1.1;
+}
+
+.contenido_libro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 70%;
+  margin: 30px;
+  margin-right: 10px;
+  padding-right: 30px;
+  align-items: flex-start;
+
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 /* INICIO DEL FOOTER*/
-.footer{
-    height: 10vh;
-    background-color: rgb(68, 94, 141);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.6rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
+.footer {
+  height: 10vh;
+  background-color: rgb(68, 94, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
