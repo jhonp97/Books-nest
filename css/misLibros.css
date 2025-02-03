@@ -159,7 +159,9 @@ th {
   scale: 1.1;
 }
 
-
+h3{
+  padding: 10px;
+}
 
 /* INICIO DEL FOOTER*/
 .footer{

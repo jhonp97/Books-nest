@@ -1,92 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>PRESTAR</title>
   <link type="text/css" rel="stylesheet" href="./css/reset.css" />
   <link type="text/css" rel="stylesheet" href="./css/prestar.css" />
-
 </head>
 
-<body>
-  <!DOCTYPE html>
-  <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>Prestar</title>
-  </head>
-
-  <body class="body">
-    <div class="header">
-      <div class="logo">
-        <a href="/index.html"><img src="./img/BN.png" alt="logo_imagen"></a>
-      </div>
-
-      <input type="text" placeholder="Buscar..." class="buscador">
-
-      <div class="menu">
-        <ul class="menu__servicios">
-          <li><a href="/prestar.html"><b><u>Prestar</u></b></a></li>
-          <li><a href="/misLibros.html">Mis libros</a></li>
-          <li><a href="/registro.html">Registro</a></li>
-        </ul>
-      </div>
+<body class="body">
+  <div class="header">
+    <div class="logo">
+      <a href="./index.html"><img src="./img/BN.png" alt="logo_imagen"></a>
     </div>
 
+    <input type="text" placeholder="Buscar..." class="buscador">
 
-    <div class="contenido_categorias">
+    <div class="menu">
+      <ul class="menu__servicios">
+        <li><a href="./prestar.html"><b><u>Prestar</u></b></a></li>
+        <li><a href="./misLibros.html">Mis libros</a></li>
+        <li><a href="./registro.html">Registro</a></li>
+      </ul>
+    </div>
+  </div>
 
-      <section class="categorias">
-        <h1 class="categorias_h1">Categorías</h1>
 
-        <ol class="categorias_ol">
-          <li class="categorias_li"><a href="#"><b><u>Ciencia ficción y fantasía</u></b></a>
+  <div class="contenido_categorias">
 
-            <ul class="sublist" id="sublist">
-              <li class="sublist_autores"><a href="/infoLibroselprincipito.html">El Principito</a></li>
-              <li class="sublist_autores"><a href="/infoLibros-harrypotter.html">Harry Potter</a></li>
-              <li class="sublist_autores"><a href="/infoLibros-codigodavinvi.html">El código Da Vinci</a></li>
-            </ul>
-          </li>
-          <li class="categorias_li"><a href="#">Novela romántica</a></li>
-          <li class="categorias_li"><a href="#">Terror y suspenso</a></li>
-          <li class="categorias_li"><a href="#">Historia</a></li>
-          <li class="categorias_li"><a href="#">Comedia</a></li>
-          <li class="categorias_li"><a href="#">Comics</a></li>
-        </ol>
+    <section class="categorias">
+      <h1 class="categorias_h1">Categorías</h1>
 
-      </section>
+      <ul class="categorias_ol">
+        <li class="categorias_li"><a href="#"><b><u>Ciencia ficción y fantasía</u></b></a>
 
-      <section class="contenido">
-        
-        <div class="contenido_img">
-          <div class="contenido_libro">
-            <a href="/infoLibroselprincipito.html"><img src="https://m.media-amazon.com/images/I/714Hvb52n-L.jpg" alt="libro1" title="Regístrate para leer este libro"></a>
-            <h2>El Principito</h2>
-            <h3>★★★★★</h3>
-          </div>
-          <div class="contenido_libro">
-            <a href="/infoLibros-harrypotter.html"><img src="https://m.media-amazon.com/images/I/91R1AixEiLL._AC_UF894,1000_QL80_.jpg" alt="libro2" title="Regístrate para leer este libro"></a>
-            <h2>Harry Potter</h2>
-            <h3>★★★★★</h3>
-          </div>
-          <div class="contenido_libro">
-            <a href="/infoLibros-codigodavinvi.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EuQuQJLU_vQ8almoF4u9rpMa_Qy8SYxtXQ&s" alt="libro3" title="Regístrate para leer este libro"></a>
-            <h2>El código Da Vinci</h2>
-            <h3>★★★★★</h3>
-          </div>
+          <ul class="sublist" id="sublist">
+            <li class="sublist_autores"><a href="/infoLibroselprincipito.html">El Principito</a></li>
+            <li class="sublist_autores"><a href="/infoLibros-harrypotter.html">Harry Potter</a></li>
+            <li class="sublist_autores"><a href="/infoLibros-codigodavinvi.html">El código Da Vinci</a></li>
+          </ul>
+        </li>
+        <li class="categorias_li"><a href="#">Novela romántica</a></li>
+        <li class="categorias_li"><a href="#">Terror y suspense</a></li>
+        <li class="categorias_li"><a href="#">Historia</a></li>
+        <li class="categorias_li"><a href="#">Comedia</a></li>
+        <li class="categorias_li"><a href="#">Comics</a></li>
+      </ul>
+
+    </section>
+
+    <section class="contenido">
+
+      <div class="contenido_img">
+        <div class="contenido_libro">
+          <a href="/infoLibroselprincipito.html"><img src="https://m.media-amazon.com/images/I/714Hvb52n-L.jpg"
+              alt="el principito" title="Regístrate para leer este libro"></a>
+          <h2>El Principito</h2>
+          <h3>★★★★★</h3>
         </div>
-      </section>
+        <div class="contenido_libro">
+          <a href="/infoLibros-harrypotter.html"><img
+              src="https://m.media-amazon.com/images/I/91R1AixEiLL._AC_UF894,1000_QL80_.jpg" alt="harry potter"
+              title="Regístrate para leer este libro"></a>
+          <h2>Harry Potter</h2>
+          <h3>★★★★★</h3>
+        </div>
+        <div class="contenido_libro">
+          <a href="/infoLibros-codigodavinvi.html"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EuQuQJLU_vQ8almoF4u9rpMa_Qy8SYxtXQ&s"
+              alt="el codigo da vinci" title="Regístrate para leer este libro"></a>
+          <h2>El código Da Vinci</h2>
+          <h3>★★★★★</h3>
+        </div>
+      </div>
+    </section>
 
-    </div>
+  </div>
 
-    <div class="footer">
-      <a href="./InfoLegal.html" target="_blank" rel="nofollow">Términos y condiciones</a>
-    </div>
+  <div class="footer">
+    <a href="./InfoLegal.html" target="_self" rel="nofollow">Términos y condiciones</a>
+  </div>
 
 
-  </body>
+</body>
 
-  </html>
+</html>
