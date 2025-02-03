@@ -38,8 +38,32 @@
       <div class="sidebar">
         <h2><u>Dar de alta un nuevo libro</u></h2>
         <br>
-        <p>Aqui irá el formulario para dar de alta un nuevo libro que veremos en clase el martes</p>
-        <button class="compartir_boton" type="file"><a href="">Subir libro</a></button>
+        <form action="#" method="post">
+          <label for="txt-titulo">Título</label>
+          <input type="text" id="txt-titulo" name="txt-titulo" placeholder="Título del libro">
+          <br>
+          <label for="txt-autor">Autor/a</label>
+          <input type="text" id="txt-autor" name="txt-autor" placeholder="Autor/a">
+          <br>          
+          <input type="radio" id="rd-categoria" value="romantica" name="rd-categoria">
+          <label for="rd-categoria"> Romántica</label>
+          <br>
+          <input type="radio" id="rd-categoria" value="terror" name="rd-categoria">
+          <label for="rd-categoria"> Terror</label>
+          <br>
+          <input type="radio" id="rd-categoria" value="Comic" name="rd-categoria">
+          <label for="rd-categoria"> Comic</label>
+          <br>  
+          <input type="radio" id="rd-categoria" value="Historia" name="rd-categoria">
+          <label for="rd-categoria"> Historia</label>
+          <br> 
+          <input type="radio" id="rd-categoria" value="Comedia" name="rd-categoria">
+          <label for="rd-categoria"> Comedia</label>
+          <br> 
+
+          <input type="submit" value="Subir libro">
+      </form>
+      
       </div>
 
 
