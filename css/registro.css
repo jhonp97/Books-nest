@@ -72,10 +72,14 @@
 }
 
 .formulario{
+  display: block;
+  flex-direction: column;
   font-size: xx-large;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+ 
 
 /*FIN DEL MAIN*/
 
