@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link type="text/css" rel="stylesheet" href="./css/reset.css"/>
-    <link type="text/css" rel="stylesheet" href="./css/registro.css"/>
-
-  </head>
-  <body>
-    <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="style.css"> -->
-  <title>Registro</title>
+  <title>REGISTRO</title>
+  <link type="text/css" rel="stylesheet" href="./css/reset.css" />
+  <link type="text/css" rel="stylesheet" href="./css/registro.css" />
 </head>
 
 <body>
 
   <div class="header">
     <div class="logo">
-      <a href="/index.html"><img src="./img/BN.png" alt="logo_imagen"></a>
+      <a href="./index.html"><img src="./img/BN.png" alt="logo_imagen"></a>
     </div>
 
     <input type="text" placeholder="Buscar..." class="buscador">
 
     <div class="menu">
       <ul class="menu__servicios">
-        <li><a href="/prestar.html">Prestar</a></li>
-        <li><a href="/misLibros.html">Mis libros</a></li>
-        <li><a href="/registro.html"><b><u>Registro</u></b></a></li>
+        <li><a href="./prestar.html">Prestar</a></li>
+        <li><a href="./misLibros.html">Mis libros</a></li>
+        <li><a href="./registro.html"><b><u>Registro</u></b></a></li>
       </ul>
     </div>
   </div>
 
+<<<<<<< HEAD
   <section class="formulario">
     <form action="./" method="post">
 
@@ -61,13 +55,78 @@
 
 
     </form>
+=======
+  <section class="main">
+    <div class="formulario">FORMULARIO DE REGISTRO</div>
+
+    <div><form action="#" method="post">
+      <label for="txt-usuario">Usuario</label>
+      <input type="text" id="txt-usuario" name="txt-usuario" placeholder="Tu nombre">
+      <br>
+      <label for="txt-clave">Contraseña</label>
+      <input type="password" id="txt-clave" placeholder="Contraseña (8 caracteres)" name="txt-clave">
+      <br>
+      <label for="txt-email">Email</label>
+      <input type="email" id="txt-email" placeholder="Tu correo electrónico" name="txt-email">
+      <br>
+      <label for="txt-info">Descripción</label><br>
+      <textarea name="descripción" id="txt-info" placeholder="Cuéntanos sobre ti..."></textarea>
+      <br> <br>
+      <label for="txt-direccion">Dirección</label><br>
+      <input type="text" id="txt-dirección" name="txt-dirección" placeholder="Calle">
+      <br>      
+      <input type="text" id="txt-dirección" name="txt-dirección" placeholder="Número">
+      <br>
+      <input type="text" id="txt-dirección" name="txt-dirección" placeholder="Código postal">
+      <br>
+      <input type="text" id="txt-dirección" name="txt-dirección" placeholder="Localidad">
+      <br>
+      <input type="text" id="txt-dirección" name="txt-dirección" placeholder="Provincia">
+      <br> <br>
+      <h3>Tus libros favoritos</h3>
+      <input type="checkbox" id="chk-romantica" value="romantica" name="chk-romantica">
+      <label for="rd-categoria">Novela romántica</label>
+      <br>
+      <input type="checkbox" id="chk-terror" value="terror" name="chk-terror">
+      <label for="rd-categoria">Novela de terror y suspense</label>
+      <br>
+      <input type="checkbox" id="chk-comic" value="Comic" name="chk-comic">
+      <label for="rd-categoria">Comics</label>
+      <br>
+      <input type="checkbox" id="chk-historia" value="Historia" name="chk-historia">
+      <label for="rd-categoria">Novela histórica</label>
+      <br>
+      <input type="checkbox" id="chk-comedia" value="Comedia" name="chk-comedia">
+      <label for="rd-categoria">Comedia</label>
+      <br>
+      <input type="checkbox" id="chk-fantasia" value="fantasia" name="chk-fantasia">
+      <label for="rd-categoria">Ciencia ficción y fantasía</label>
+      <br> <br>
+
+
+      <label for="select_interes">Estás interesado/a en:</label>
+      <select name="select_interes" id="select_interes">
+          <option value="dejar">Dejar tus libros a tus vecinos</option>
+          <option value="quemepresten"> Tomar prestados los libros de tus vecinos</option>
+          <option selected value="ambas">Ambas opciones</option>
+      </select>
+      <br>
+      <br>
+      <input class="compartir_boton" type="submit" value="Enviar">
+  </form> </div>
+
+
+
+>>>>>>> 065f556a575a9c25e2e290cdc706c55ed83c667b
   </section>
 
 
 
+
   <div class="footer">
-    <a href="./InfoLegal.html" target="_blank" rel="nofollow">Términos y condiciones</a>
-</div>
-    
+    <a href="./InfoLegal.html" target="_self" rel="nofollow">Términos y condiciones</a>
+  </div>
+
 </body>
+
 </html>
